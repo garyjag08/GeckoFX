@@ -149,7 +149,7 @@ namespace Skybound.Gecko
 		
 		/// <summary>
 		/// Returns true if the HTTP response code indicates success. This value will be true even when processing a 404 response because a 404 response
-		/// may include a message body that (in some cases) should be shown to the user.
+		/// may include a message body that (in some cases) should be shown to the user, else other response code is shown.
 		/// </summary>
 		public bool HttpRequestSucceeded
 		{
